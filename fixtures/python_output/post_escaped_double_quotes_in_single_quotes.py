@@ -1,7 +1,7 @@
 import requests
 
 data = {
-  'foo': '\"bar\"'
+  'foo': '\\"bar\\"'
 }
 
-requests.post('http://example.com/', data=data)
+response = requests.post('http://example.com/', data=data)
